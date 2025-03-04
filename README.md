@@ -36,12 +36,3 @@ The **Chat Application** is a simple command-line based messaging system impleme
 ### 4. **Saving Chat Logs**
    - All chat logs are automatically saved to a file named `chat_history` on the server.
    - When the server is terminated (CTRL + C), the chat history is written to the file for future reference.
-
-## File Structure
-
-```plaintext
-ChatApp/
-├── chat_server.c        # Server-side code
-├── chat_client.c        # Client-side code
-├── Makefile             # Build instructions
-└── chat_history         # File where chat logs are saved
